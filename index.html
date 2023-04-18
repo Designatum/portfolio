@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css\style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
     <title>Designatum Portfolio Page</title>
 </head>
 <body>
@@ -21,121 +23,167 @@
                 <div class="portfolio__container">
                     <div class="portfolio__items">
                         <div class="portfolio__item item-portfolio">
-                            <div class="item-portfolio__image">
-                                <img src="img\01_CEO-RC.jpg" alt="Reality Cards Splidge">
-                            </div>
-                            <div class="item-portfolio__info">
-                                <h4>Reality Cards Splidge<br><span class="info__type">PFP</span></h4>
-                                <p>POAPathon Bounty Runner-up</p>
-                            </div>
-                        </div>
-                        <div class="portfolio__item item-portfolio">
-                            <div class="item-portfolio__image">
-                                <img src="img\02_RC.png" alt="Reality Cards Fear & Greed">
-                            </div>
-                            <div class="item-portfolio__info">
-                                <h4>Reality Cards Fear & Greed<br><span class="info__type">POAPs</span></h4>
-                                <p>POAPathon Bounty First Place Winner</p>
-                            </div>
-                        </div>
-                        <div class="portfolio__item item-portfolio">
-                            <div class="item-portfolio__image">
-                                <img src="img\03_Jesus.gif" alt="You’ve Met Jesus">
-                            </div>
-                            <div class="item-portfolio__info">
-                                <h4>You’ve Met Jesus<br><span class="info__type">POAP</span></h4>
-                                <p>POAPathon Bounty First Place Winner</p>
-                            </div>
-                        </div>
-                        <div class="portfolio__item item-portfolio">
-                            <div class="item-portfolio__image">
-                                <img src="img\04_Spookathon.jpg" alt="Spookathon Monsters">
-                            </div>
-                            <div class="item-portfolio__info">
-                                <h4>Spookathon Monsters<br><span class="info__type">Illustration</span></h4>
-                                <p>POAPathon Bounty Winning Entry</p>
-                            </div>
-                        </div>
-                        <div class="portfolio__item item-portfolio">
-                            <div class="item-portfolio__image">
-                                <img src="img\05_Rocketpool.png" alt="Rocket Pool Anniversary">
-                            </div>
-                            <div class="item-portfolio__info info">
-                                <h4>Rocket Pool Anniversary<br><span class="info__type">POAP</span></h4>
-                                <p>POAPathon Bounty First Place Winner</p>
-                            </div>
-                        </div>
-                        <div class="portfolio__item item-portfolio">
-                            <div class="item-portfolio__image">
-                                <img src="img\06_Winter2.png" alt="Winter POAPathon pt2">
-                            </div>
-                            <div class="item-portfolio__info">
-                                <h4>Winter POAPathon pt2<br><span class="info__type">Illustration</span></h4>
-                                <p>POAPathon Bounty Winner</p>
-                            </div>
-                        </div>
-                        <div class="portfolio__item item-portfolio">
-                            <div class="item-portfolio__image">
-                                <img src="img\07_Jamie.png" alt="Jamie Thingelstad’s birthday">
-                            </div>
-                            <div class="item-portfolio__info">
-                                <h4>Jamie Thingelstad’s birthday<br><span class="info__type">POAP</span></h4>
-                                <p>POAPathon Bounty First Place Winner</p>
-                            </div>
-                        </div>
-                        <div class="portfolio__item item-portfolio">
-                            <div class="item-portfolio__image">
-                                <img src="img\08_Winter3.png" alt="Winter POAPathon pt3">
-                            </div>
-                            <div class="item-portfolio__info">
-                                <h4>Winter POAPathon pt2<br><span class="info__type">Illustration</span></h4>
-                                <p>POAPathon Bounty Winner</p>
-                            </div>
-                        </div>
-                        <div class="portfolio__item item-portfolio">
-                            <div class="item-portfolio__image">
-                                <a target="_blank" href="https://twitter.com/0xDesignatum/status/1615021814656139266?s=20"><img src="img\View.svg" alt="View"></a>
-                            </div>
-                            <div class="item-portfolio__info info">
-                                <h4>The Graph Network: Breaking Down Query Cost Structure<br><span class="info__type">Twitter thread</span></h4>
-                                <div class="info__stats">
-                                    <!-- <h4>Stats:</h4> -->
+                            <div class="item-portfolio__content content">
+                                <div class="content__image">
+                                    <a href="img/01_CEO-RC.jpg" class="lightzoom">
+                                        <img class="image__minimized" src="img\01_CEO-RC.jpg" alt="Reality Cards Splidge">
+                                    </a>
+                                </div>
+                                <div class="content__info">
+                                    <h4>Reality Cards Splidge<br><span class="info__type">PFP</span></h4>
+                                    <p>POAPathon Bounty Runner-up</p>
                                 </div>
                             </div>
                         </div>
                         <div class="portfolio__item item-portfolio">
-                            <div class="item-portfolio__image">
-                                <a target="_blank" href="https://twitter.com/0xDesignatum/status/1618323814454284289?s=20"><img src="img\View.svg" alt="View"></a>
-                            </div>
-                            <div class="item-portfolio__info">
-                                <h4>GraphLooker: A Practical Example<br><span class="info__type">Twitter thread</span></h4>
-                            </div>
-                        </div>
-                        <div class="portfolio__item item-portfolio">
-                            <div class="item-portfolio__image">
-                                <img src="img\11_PoolyComic.png" alt="Reality Cards Splidge">
-                            </div>
-                            <div class="item-portfolio__info">
-                                <h4>What's Possible for Pixel Pooly?<br><span class="info__type">Comic strip</span></h4>
-                                <p>Bounty Winner</p>
+                            <div class="item-portfolio__content content">
+                                <div class="content__image">
+                                    <a href="img\02_RC-full.png" class="lightzoom">
+                                        <img class="image__minimized" src="img\02_RC.png" alt="Reality Cards Fear & Greed">
+                                    </a>
+                                </div>
+                                <div class="content__info">
+                                    <h4>Reality Cards Fear & Greed<br><span class="info__type">POAPs</span></h4>
+                                    <p>POAPathon Bounty First Place Winner</p>
+                                </div>
                             </div>
                         </div>
                         <div class="portfolio__item item-portfolio">
-                            <div class="item-portfolio__image">
-                                <img src="img\12_PythCap.gif" alt="PythCap">
-                            </div>
-                            <div class="item-portfolio__info">
-                                <h4>There's never a cap when you're powered by Pyth 🔮🧢<br><span class="info__type">Animated art</span></h4>
-                                <p>'Venus de Milo' Discord role granted</p>
+                            <div class="item-portfolio__content content">
+                                <div class="content__image">
+                                    <a href="img\03_Jesus.gif" class="lightzoom">
+                                        <img class="image__minimized" src="img\03_Jesus.gif" alt="You’ve Met Jesus">
+                                    </a>
+                                </div>
+                                <div class="content__info">
+                                    <h4>You’ve Met Jesus<br><span class="info__type">POAP</span></h4>
+                                    <p>POAPathon Bounty First Place Winner</p>
+                                </div>
                             </div>
                         </div>
                         <div class="portfolio__item item-portfolio">
-                            <div class="item-portfolio__image">
-                                <a target="_blank" href="https://twitter.com/0xDesignatum/status/1642925596660445188?s=20"><img src="img\13_AIthread.png" alt="View"></a>
-                                
+                            <div class="item-portfolio__content content">
+                                <div class="content__image">
+                                    <a href="img\04_Spookathon.jpg" class="lightzoom">
+                                        <img class="image__minimized" src="img\04_Spookathon.jpg" alt="Spookathon Monsters">
+                                    </a>
+                                </div>
+                                <div class="content__info">
+                                    <h4>Spookathon Monsters<br><span class="info__type">Illustration</span></h4>
+                                    <p>POAPathon Bounty Winning Entry</p>
+                                </div>
                             </div>
-                            <div class="item-portfolio__info">
-                                <h4>The Graph and AI<br><span class="info__type">Twitter thread</span></h4>
+                        </div>
+                        <div class="portfolio__item item-portfolio">
+                            <div class="item-portfolio__content content">
+                                <div class="content__image">
+                                    <a href="img\05_Rocketpool.png" class="lightzoom">
+                                        <img class="image__minimized" src="img\05_Rocketpool.png" alt="Rocket Pool Anniversary">
+                                    </a>
+                                </div>
+                                <div class="content__info info">
+                                    <h4>Rocket Pool Anniversary<br><span class="info__type">POAP</span></h4>
+                                    <p>POAPathon Bounty First Place Winner</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio__item item-portfolio">
+                            <div class="item-portfolio__content content">
+                                <div class="content__image">
+                                    <a href="img\06_Winter2.png" class="lightzoom">
+                                        <img class="image__minimized" src="img\06_Winter2.png" alt="Winter POAPathon pt2">
+                                    </a>
+                                </div>
+                                <div class="content__info">
+                                    <h4>Winter POAPathon pt2<br><span class="info__type">Illustration</span></h4>
+                                    <p>POAPathon Bounty Winner</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio__item item-portfolio">
+                            <div class="item-portfolio__content content">
+                                <div class="content__image">
+                                    <a href="img\07_Jamie.png" class="lightzoom">
+                                        <img class="image__minimized" src="img\07_Jamie.png" alt="Jamie Thingelstad’s birthday">
+                                    </a>
+                                </div>
+                                <div class="content__info">
+                                    <h4>Jamie Thingelstad’s birthday<br><span class="info__type">POAP</span></h4>
+                                    <p>POAPathon Bounty First Place Winner</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio__item item-portfolio">
+                            <div class="item-portfolio__content content">
+                                <div class="content__image">
+                                    <a href="img\08_Winter3.png" class="lightzoom">
+                                        <img class="image__minimized" src="img\08_Winter3.png" alt="Winter POAPathon pt3">
+                                    </a>
+                                </div>
+                                <div class="content__info">
+                                    <h4>Winter POAPathon pt2<br><span class="info__type">Illustration</span></h4>
+                                    <p>POAPathon Bounty Winner</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio__item item-portfolio">
+                            <div class="item-portfolio__content content">
+                                <div class="content__image">
+                                    <a target="_blank" href="https://twitter.com/0xDesignatum/status/1615021814656139266?s=20"><img src="img\View.svg" alt="View"></a>
+                                </div>
+                                <div class="content__info info">
+                                    <h4>The Graph Network: Breaking Down Query Cost Structure<br><span class="info__type">Twitter thread</span></h4>
+                                    <div class="info__stats">
+                                        <!-- <h4>Stats:</h4> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio__item item-portfolio">
+                            <div class="item-portfolio__content content">
+                                <div class="content__image">
+                                    <a target="_blank" href="https://twitter.com/0xDesignatum/status/1618323814454284289?s=20"><img src="img\View.svg" alt="View"></a>
+                                </div>
+                                <div class="content__info">
+                                    <h4>GraphLooker: A Practical Example<br><span class="info__type">Twitter thread</span></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio__item item-portfolio">
+                            <div class="item-portfolio__content content">
+                                <div class="content__image">
+                                    <a href="img\11_PoolyComic.png" class="lightzoom">
+                                        <img class="image__minimized" src="img\11_PoolyComic.png" alt="Reality Cards Splidge">
+                                    </a>
+                                </div>
+                                <div class="content__info">
+                                    <h4>What's Possible for Pixel Pooly?<br><span class="info__type">Comic strip</span></h4>
+                                    <p>Bounty Winner</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio__item item-portfolio">
+                            <div class="item-portfolio__content content">
+                                <div class="content__image">
+                                    <a href="img\12_PythCap.gif" class="lightzoom">
+                                        <img class="image__minimized" src="img\12_PythCap.gif" alt="PythCap">
+                                    </a>
+                                </div>
+                                <div class="content__info">
+                                    <h4>There's never a cap when you're powered by Pyth 🔮🧢<br><span class="info__type">Animated art</span></h4>
+                                    <p>'Venus de Milo' Discord role granted</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio__item item-portfolio">
+                            <div class="item-portfolio__content content">
+                                <div class="content__image">
+                                    <a target="_blank" href="https://twitter.com/0xDesignatum/status/1642925596660445188?s=20"><img src="img\13_AIthread.png" alt="View"></a>
+                                    
+                                </div>
+                                <div class="content__info">
+                                    <h4>The Graph and AI<br><span class="info__type">Twitter thread</span></h4>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -143,6 +191,9 @@
             </div>
         </main>
     </div>
-        
+    <link rel="stylesheet" href="lightzoom-style.css" type="text/css">
+    <script type="text/javascript" src="lightzoom.js"></script>
+    <script type="text/javascript">jQuery('.lightzoom').lightzoom({speed: 400, viewTitle: true});</script>
+
 </body>
 </html>

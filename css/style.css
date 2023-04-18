@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,900;1,200&display=swap');
 
 /* Null */
 [class*="__container"] {
@@ -28,7 +28,7 @@ html, body {
     background-color:  #27013E;
 }
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #ffffff;
 }
 .wrapper {
@@ -90,23 +90,34 @@ h1 {
 }
 h4 {
     font-size: 24px;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 29px;
 }
 p {
     font-size: 24px;
     font-weight: 300;
     line-height: 29px;
-    opacity: 0.5;
 }
 h4:not(:last-child) {
-    margin-bottom: 20px;
-}
-
-.portfolio__item:not(:last-child) {
     margin-bottom: 15px;
 }
 
+hr {
+    border-top: 1px solid white;
+    opacity: 0.1;
+    margin-bottom: 15px;
+    min-width: 780px;
+}
+.portfolio__item:not(:last-child) {
+    margin-bottom: 15px;
+}
 .info__type {
+    opacity: 0.85;
+}
+.info__type:not(:last-child) {
+    margin-bottom: 5px;
+}
+.award {
     font-style: italic;
+    opacity: 0.5;
 }

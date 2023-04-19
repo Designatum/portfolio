@@ -131,6 +131,7 @@ hr {
 
 .stats-item {
     min-width: 180px;
+    height: 31px;
     font-size: 24px;
     font-weight: 300;
     opacity: 0.5;
@@ -139,7 +140,7 @@ hr {
     position: relative;
 }
 .icon {
-    bottom: 0;
+    height: 31px;
 }
 .num {
     margin-left: 15px;

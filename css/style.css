@@ -130,7 +130,7 @@ hr {
 }
 
 .stats-item {
-    min-width: 180px;
+    width: 180px;
     height: 31px;
     font-size: 24px;
     font-weight: 300;
@@ -146,3 +146,22 @@ hr {
     margin-left: 15px;
 }
 
+
+.info-info {
+    display: flex;
+}
+.info-type {
+    flex: 1 1 auto;
+}
+.username {
+    font-size: 20px;
+    font-weight: 300;
+    font-style: italic;
+    opacity: 0.5;
+}
+.icon-follower {
+    margin-left: 15px;
+}
+.followers-item {
+    text-align: right;
+}

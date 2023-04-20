@@ -80,7 +80,7 @@ a.lightzoom {
   position: absolute;
   top: 2%;
   right: 2%;
-  background: url("/img/icons/close.png") no-repeat 2px 2px;
+  background: url("close.png") no-repeat 0px 0px;
   width: 20px;
   height: 20px;
   text-indent: -9999px;

@@ -1,9 +1,3 @@
-/**
- * jQuery lightzoom v1.1.0
- * Copyright 2020
- * Contributing Author: Aleksey Savin
- * E-mail: asavin.work@yandex.ru
- */
 
 ;( function( $, window, document, undefined ) {
 
@@ -59,16 +53,10 @@ $.extend( Plugin.prototype, {
           event.preventDefault();
           $this.closeZoom();
         });
-
-        if ( $this.settings.isWindowClickClosing ) {
-          $( document ).on( 'click', '#lz-container', function( event ) {
-            $this.closeZoom();
-          });
-        } else if ( $this.settings.isOverlayClickClosing ) {
-          $( document ).on( 'click', '#lz-overlay', function( event ) {
-            $this.closeZoom();
-          });
-        }
+        $( document ).on( 'click', '#lz-overlay', function( event ) {
+          $this.closeZoom();
+        });
+        
 
         if ( $this.settings.isEscClosing ) {
           $( document ).keydown( function( event ) {

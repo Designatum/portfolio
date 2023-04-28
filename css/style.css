@@ -154,14 +154,21 @@ hr {
     flex: 1 1 auto;
 }
 .username {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 300;
     font-style: italic;
     opacity: 0.5;
 }
 .icon-follower {
     margin-left: 15px;
+    width: 16px;
 }
 .followers-item {
     text-align: right;
+
+}
+
+.followers-item:not(:last-child) {
+    margin-bottom: 5px;
+    
 }
